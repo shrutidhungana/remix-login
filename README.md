@@ -1,40 +1,11 @@
-# Welcome to Remix!
+# Remix Login
 
-- 📖 [Remix docs](https://remix.run/docs)
+A simple login app using Remix JS where you can enter Name, Email and Password after which you will be redirected to profile where you can logout or delete profile.
 
-## Development
+# Profile
 
-Run the dev server:
+After you click login button you will be redirect to profile page created with UUID where you can see your email and have the option of Logout or deleting the account.
 
-```shellscript
-npm run dev
-```
+To know more about the application,you can click on the link below:
 
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+https://remix-login-kappa.vercel.app/
